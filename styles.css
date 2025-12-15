@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Super Croissant';
+    font-family: 'SuperCroissant';
     src: url('./fonts/Super Croissant.woff') format('woff'),
         url('./fonts/Super Croissant.woff2') format('woff2'),
         url('./fonts/Super Croissant.ttf') format('truetype');
@@ -8,5 +8,5 @@
 }
  
 body {
-    font-family: 'Super Croissant', sans - serif;
+    font-family: 'SuperCroissant', sans-serif;
 }
