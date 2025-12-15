@@ -1,16 +1,10 @@
-h1 {
-font-family: doublebass, sans-serif;
-font-style: normal;
-font-weight: 700;
-color: green;
-}
 @font - face {
-    font - family: 'Super Croissant';
+    font-family: 'Super Croissant';
     src: url('fonts/Super Croissant.ttf') format('truetype');
-    font - weight: normal;
-    font - style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
  
 body {
-    font - family: 'Super Croissant', sans - serif;
+    font-family: 'Super Croissant', sans - serif;
 }
