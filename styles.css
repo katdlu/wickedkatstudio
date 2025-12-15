@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Super Croissant';
-    src: url('./fonts/Super Croissant.woff') format('woff');
-        url('./fonts/Super Croissant.woff2') format('woff2');
+    src: url('./fonts/Super Croissant.woff') format('woff'),
+        url('./fonts/Super Croissant.woff2') format('woff2'),
         url('./fonts/Super Croissant.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
