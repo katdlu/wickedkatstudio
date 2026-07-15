@@ -12,13 +12,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 200px;
+  height: 800px;
   align-items: center;
-  background-color: #45325C;
+  background-color: #af889c;
 }
 
 .container div {
-  background-color: #4A5D32;
+  background-color: #9CAF88;
   margin: 10px;
   padding: 20px;
   font-size: 24px;
