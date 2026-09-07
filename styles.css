@@ -32,7 +32,12 @@ body {
     background-size: cover;
 }
 
-
+hr {
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url('img.gif');
+}
 
 .container {
   display: flex;
