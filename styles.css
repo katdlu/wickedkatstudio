@@ -40,19 +40,21 @@ hr {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 800px;
-  align-items: center;
-  background-color: #af889c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+    background-color: #af889c;
+    padding: 50px;
+    margin: 50px;
 }
 
 .container div {
-  background-color: #9CAF88;
-  margin: 10px;
-  padding: 20px;
-  font-size: 24px;
+    background-color: #9CAF88;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
 }
 
 h1,
@@ -61,18 +63,18 @@ h2 {
 }
 
 .updates {
-  height: 200px;
-  overflow: scroll;
+    height: 200px;
+    overflow: scroll;
 }
 
 .grid-item1 {
-  padding-left: 150px;
-  padding-right: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
   
 }
 
 @media (max-width: 600px) {
-  .flex-container {
+    .flex-container {
     flex-direction: column;
   }
 }
