@@ -7,11 +7,21 @@
     font-style: normal;
 }
 
+/* Remove default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background-image: url(blob:https://drive.proton.me/4898b5fb-d6fe-46f8-8d25-804305d58eec);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(blob:https://drive.proton.me/4898b5fb-d6fe-46f8-8d25-804305d58eec);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
