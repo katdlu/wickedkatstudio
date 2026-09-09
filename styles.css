@@ -6,6 +6,42 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+  font-family: "Punkfarm6";
+  src: url('./fonts/Punkfarm6.woff2') format('woff2'), 
+      url('./fonts/Punkfarm6.woff') format('woff'),
+      url('./fonts/Punkfarm6.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm5";
+  src: url('./fonts/Punkfarm5.woff2') format('woff2'), 
+      url('./fonts/Punkfarm5.woff') format('woff'),
+      url('./fonts/Punkfarm5.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm2";
+  src: url('./fonts/Punkfarm2.woff2') format('woff2'), 
+      url('./fonts/Punkfarm2') format('woff'),
+      url('./fonts/Punkfarm2.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm4";
+  src: url('./fonts/Punkfarm4.woff2') format('woff2'), 
+      url('./fonts/Punkfarm4.woff') format('woff'),
+      url('./fonts/Punkfarm4.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm3";
+  src: url('./fonts/Punkfarm3.woff2') format('woff2'), 
+      url('./fonts/Punkfarm3.woff') format('woff'),
+      url('./fonts/Punkfarm3.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm1";
+  src: url('./fonts/Punkfarm1.woff2') format('woff2'), 
+      url('./fonts/Punkfarm1.woff') format('woff'),
+      url('./fonts/Punkfarm1.ttf') format('truetype');
+}
 
 
 * {
