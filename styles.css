@@ -111,7 +111,9 @@ h2 {
     background-image: url(./images/papertiles.png);
     padding: 20px;
     margin: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     width: 350px;
 }
