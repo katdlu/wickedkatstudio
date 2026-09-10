@@ -88,8 +88,7 @@ hr {
     height: 800px;
     align-items: center;
     background-color: #af889c;
-    padding: 50px;
-    margin: 50px;
+    
 }
 
 .container div {
@@ -105,8 +104,9 @@ h1 {
 
 .paper {
     background-image: url(./images/papertiles.png);
-    padding: 25px;
-    border-radius: 15px;
+    padding: 50px;
+    margin: 50px;
+    align-items: center;
 }
 
 .updates {
