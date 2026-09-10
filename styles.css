@@ -99,9 +99,14 @@ hr {
     font-size: 24px;
 }
 
-h1,
-h2 {
-    font-family: 'SuperCroissant', sans-serif;
+h1 {
+    font-family: Punkfarm1, sans-serif;
+}
+
+.paper {
+    background-image: url(./images/papertiles.png);
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .updates {
