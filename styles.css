@@ -90,6 +90,7 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     height: 800px;
+    width: 1000px;
     align-items: center;
     background-color: #af889c;
     margin: 10px;
