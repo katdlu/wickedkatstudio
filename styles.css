@@ -120,7 +120,7 @@ h2 {
   width: 50%;
 }
 
-.updates {
+.scroll {
     height: 200px;
     overflow: scroll;
 }
