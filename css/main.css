@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'SuperCroissant';
+    src: url('./fonts/Super Croissant.woff') format('woff'),
+        url('./fonts/Super Croissant.woff2') format('woff2'),
+        url('./fonts/Super Croissant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Punkfarm6";
+  src: url('./fonts/Punkfarm6.woff2') format('woff2'), 
+      url('./fonts/Punkfarm6.woff') format('woff'),
+      url('./fonts/Punkfarm6.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm5";
+  src: url('./fonts/Punkfarm5.woff2') format('woff2'), 
+      url('./fonts/Punkfarm5.woff') format('woff'),
+      url('./fonts/Punkfarm5.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm2";
+  src: url('./fonts/Punkfarm2.woff2') format('woff2'), 
+      url('./fonts/Punkfarm2') format('woff'),
+      url('./fonts/Punkfarm2.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm4";
+  src: url('./fonts/Punkfarm4.woff2') format('woff2'), 
+      url('./fonts/Punkfarm4.woff') format('woff'),
+      url('./fonts/Punkfarm4.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm3";
+  src: url('./fonts/Punkfarm3.woff2') format('woff2'), 
+      url('./fonts/Punkfarm3.woff') format('woff'),
+      url('./fonts/Punkfarm3.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Punkfarm1";
+  src: url('./fonts/Punkfarm1.woff2') format('woff2'), 
+      url('./fonts/Punkfarm1.woff') format('woff'),
+      url('./fonts/Punkfarm1.ttf') format('truetype');
+}
+
+
+header {
+    font-family: Punkfarm4;
+    font-size: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.5em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+
+body {
+    font-family: Punkfarm1, Punkfarm2, Punkfarm3, Punkfarm4, Punkfarm5, Punkfarm6, SuperCroissant,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                 Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('./images/background1.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 800px;
+}
+
+hr {
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url('img.gif');
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    background: rgb(255 255 255 / 30%);
+}
+
+.container div {
+    background-color: #32392b;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:visited {
+  color: red;
+}
+
+a:link {
+  color: black;
+}
+
+h1 {
+    font-family: Punkfarm1, sans-serif;
+}
+
+h2 {
+    font-family: Punkfarm2, sans-serif;
+    font-size: 50px;
+    line-height: 0.5em;
+}
+
+p {
+    font-family: Punkfarm2, sans-serif;
+    font-size: 30px;
+    line-height: 0.8em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.paper {
+    background-image: url('./images/papertiles.png');
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.scroll {
+    height: 200px;
+    overflow: scroll;
+    font-size: 30px;
+    line-height: 0.8em;
+    scrollbar-color: black #32392b;
+    scrollbar-width: thin;
+}
+
+.grid-item {
+    padding-left: 50px;
+    padding-right: 50px;
+  
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+    flex-direction: column;
+  }
+}
