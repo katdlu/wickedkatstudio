@@ -63,8 +63,15 @@
 			</div>
     <!-- Update log end -->
     </div>
+<script type="text/javascript">
+            function pic() {
+            var bgm = ['background/background1.jpg','background/background2.jpg', 'background/background3.jpg', 'background/background4.jpg', 'background/background5.jpg', 'background/background6.jpg', 'background/background7.jpg', 'background/background8.jpg'];
 
-<script src="background/background.js" type="text/javascript"></script> 
+        document.body.style.background = 'url(' + bgm[Math.floor(Math.random() * bgm.length)] + ') repeat';
+	    document.body.style.backgroundSize = '1000px';
+}
+pic();
+</script>
 
     </body>
 </html>
